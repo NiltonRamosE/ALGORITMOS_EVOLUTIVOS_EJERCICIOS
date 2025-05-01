@@ -2,6 +2,7 @@
 # Fecha: 30/04/2025
 
 # 1. Importamos la librería Pandas
+# pip install pandas
 import pandas as pd 
 
 # 2. Creamos un diccionario

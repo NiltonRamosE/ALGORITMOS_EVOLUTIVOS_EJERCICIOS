@@ -2,6 +2,7 @@
 # Fecha: 30/04/2025
 
 # 1. Importamos la librería NumPy
+# pip install numpy
 import numpy as np  
 
 # 2. Definimos nuestro presupuesto disponible

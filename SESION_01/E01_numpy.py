@@ -1,5 +1,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
+# Es necesario instalar las librerías si no están instaladas:
+# pip install numpy
+# pip install matplotlib
 
 # Parámetros del problema
 max_horas_trabajo = 120
