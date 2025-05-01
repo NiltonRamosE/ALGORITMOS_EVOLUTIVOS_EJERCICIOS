@@ -1,3 +1,6 @@
+# Alumno: RAMOS ENCARNACION NILTON
+# Fecha: 30/04/2025
+
 pago_por_hora = 2.00
 
 horas_usadas = {

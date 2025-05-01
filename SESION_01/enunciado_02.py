@@ -1,3 +1,6 @@
+# Alumno: RAMOS ENCARNACION NILTON
+# Fecha: 30/04/2025
+
 # 1. Importamos la librería Pandas
 import pandas as pd 
 

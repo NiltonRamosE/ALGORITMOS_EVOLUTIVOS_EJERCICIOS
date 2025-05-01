@@ -1,3 +1,6 @@
+# Alumno: RAMOS ENCARNACION NILTON
+# Fecha: 30/04/2025
+
 cafeterias = ['A', 'B', 'C', 'D']
 precios = [2.50, 3.00, 1.75, 2.20]
 presupuesto = 10.0
