@@ -20,9 +20,10 @@ indice_mayor = max_copias.argmax()
 
 copisterias = ['A', 'B', 'C']
 
-print("- Cantidad de páginas que se imprimen en cada copistería")
+print("1. Calcular cuántas páginas puede fotocopiar en cada copistería.")
 
 for i in range(len(copisterias)):
     print(f"Copisteria {copisterias[i]}: {int(max_copias[i])} páginas")
+print("2. Identificar en cuál obtiene más páginas con su presupuesto.")
 
-print(f"- Obtenemos el mayor presupuesto comprando en la Copistería {copisterias[indice_mayor]}")
+print(f"Obtenemos el mayor presupuesto comprando en la Copistería {copisterias[indice_mayor]} en la cual tendremos {mayor_cantidad} copias")
