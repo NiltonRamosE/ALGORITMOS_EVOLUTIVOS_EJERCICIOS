@@ -7,7 +7,9 @@ from sklearn.metrics import accuracy_score
 from deap import base, creator, tools
 import random
 import matplotlib.pyplot as plt
-
+import warnings
+from sklearn.exceptions import ConvergenceWarning
+warnings.filterwarnings("ignore", category=ConvergenceWarning)
 
 # --- Carga de datos ---
 df = pd.read_csv("SESION_05/dataset/enrollments.csv")
