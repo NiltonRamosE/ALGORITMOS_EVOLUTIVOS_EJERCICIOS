@@ -1,3 +1,11 @@
+"""
+Balanceo de equipos de proyecto: Se requiere formar 5 equipos de 4 
+alumnos equilibrando promedio ponderado de GPA y habilidades (categorías).
+
+1) Representa solución como listas de índices. 
+2) Función de aptitud = suma de varianzas de GPA + penalización por desequilibrio de habilidades. Vecino: swap de dos alumnos de equipos distintos. Resultados: composición de equipos y métricas.
+"""
+
 import pandas as pd
 import random
 import numpy as np

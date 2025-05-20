@@ -1,3 +1,14 @@
+"""
+Horarios de defensas de tesis: Con un DataFrame de 15 tesistas y 6 salas 
+disponibles en diferentes franjas, minimiza solapamientos y huecos sin 
+exceder 4 horas continuas de uso por sala.
+
+1) Codifica solución como (tesista → sala,franja). 
+2) Heurística inicial: asignación secuencial. 
+3) Vecino: mover 1 tesista a otra franja/sala. 
+4) Reporta calendario final y métricas de huecos.
+"""
+
 import pandas as pd
 import random
 from collections import defaultdict

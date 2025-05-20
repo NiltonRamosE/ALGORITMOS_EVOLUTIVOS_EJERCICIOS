@@ -1,3 +1,13 @@
+"""
+Diseño de mini-red neuronal para predicción de matrículas: Maximiza exactitud 
+en clasificación (Alta-Media-Baja) evolutivamente variando nº capas (1-3), 
+neuronas y tasa de aprendizaje.
+
+1) Genotipo mixto (enteros + float). 
+2) Usa mutación e hill climbing local (pequeños ajustes). 
+3) Limita epochs = 20. 
+4) Muestra arquitectura final y accuracy.
+"""
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split

@@ -1,3 +1,13 @@
+"""
+Ruta de revisión de laboratorios: El docente debe visitar 10 laboratorios de 
+la facultad en el menor tiempo caminando. Usa una matriz de distancias (en metros) 10×10.
+
+1) Modela la ruta como permutación. 
+2) Vecindad: intercambio de dos nodos. 
+3) Ejecuta hill climbing 1 000 iteraciones. 
+4) Entrega orden óptimo y distancia total.
+"""
+
 import pandas as pd
 import random
 

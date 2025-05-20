@@ -1,3 +1,14 @@
+"""
+Ajuste de hiper-parámetros en regresión sobre dataset HousePricesUNS.csv 
+(precio de alquiler universitario). Implementa hill climbing + población usando 
+DEAP para optimizar (α,ridge) de un modelo Ridge. Métrica: RMSE.
+
+1) Usa deap (creator, toolbox, algorithms) con población = 20. 
+2) Operadores: mutación gaussiana pequeña, sin cruce. 
+3) Selección greedily (mejor vecino). 
+4) Reporta α óptimo y curva de convergencia.
+"""
+
 import pandas as pd
 import numpy as np
 from sklearn.linear_model import Ridge

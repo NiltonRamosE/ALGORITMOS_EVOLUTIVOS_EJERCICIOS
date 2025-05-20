@@ -1,3 +1,14 @@
+"""
+Optimización de presupuesto de proyectos: Tienes 8 proyectos estudiantiles con costo S/ 
+y beneficio estimado. Con un máximo de S/ 10 000, busca el subconjunto con beneficio 
+total máximo.
+
+1) Usa bitstring de longitud 8. 
+2) Función de aptitud: beneficio si costo ≤ presupuesto, –∞ si no. 
+3) Vecino: voltear 1 bit. 
+4) Entrega lista seleccionada y beneficio.
+"""
+
 import pandas as pd
 import random
 import numpy as np

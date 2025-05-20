@@ -1,3 +1,11 @@
+"""
+Selección de problemas de examen: Hay 30 preguntas con dificultad y 
+tiempo estimado (min). El examen dura 90 min y debe tener dificultad 
+total entre 180-200.
+
+1) Hill climbing sobre subconjuntos (bitstring).
+"""
+
 import pandas as pd
 import random
 import numpy as np

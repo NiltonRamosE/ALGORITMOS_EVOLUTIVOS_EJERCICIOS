@@ -1,3 +1,14 @@
+"""
+Sintonización de reglas en un spam filter para correos institucionales (dataset tokenizado). 
+Evoluciona umbrales de puntaje y pesos de 5 características con DEAP y operador de hill 
+climbing por individuo.
+
+1) Genotipo: 6 floats. 
+2) Cada individuo aplica hill climbing local tras mutar. 
+3) Fitness = F1-score sobre conjunto validación. 
+4) Entrega mejores pesos y gráfica de F1 vs generación.
+"""
+
 import pandas as pd
 import numpy as np
 from sklearn.metrics import f1_score

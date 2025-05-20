@@ -1,6 +1,3 @@
-import pandas as pd
-import random
-
 """
 Asignación de tutores-pares: Dispones de una tabla “disponibilidad” 
 (filas = estudiantes mentores, columnas = horarios). 
@@ -11,6 +8,9 @@ Minimiza el número de choques de horario asignando a cada mentor un bloque de 2
 3) Vecindad: cambiar 1 horario. 
 4) Devuelve horario final y choques = 0 si posible.
 """
+
+import pandas as pd
+import random
 
 # Leer el archivo de disponibilidad
 # Definimos la columna que será el ID en el argumento index_col

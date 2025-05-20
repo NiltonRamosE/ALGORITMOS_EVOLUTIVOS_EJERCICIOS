@@ -1,5 +1,3 @@
-import pandas as pd
-import random
 """
 Curva de notas de Parciales: Dado un CSV con las calificaciones de 120 alumnos 
 en tres parciales, usa hill climbing para encontrar el offset (entre –5 y +5 puntos) 
@@ -9,8 +7,11 @@ que maximiza el porcentaje de aprobados manteniendo el promedio de la clase ≤ 
 2) Define función de aptitud (porcentaje de aprobados penalizando si promedio > 14). 
 3) Itera intentando offsets aleatorios de 0.5 ptos y conserva el mejor. 
 4) Reporta offset óptimo y nueva distribución.
-
 """
+
+import pandas as pd
+import random
+
 # Paso 1: Leer el archivo
 df = pd.read_csv('SESION_05/dataset/grades.csv')
 
