@@ -4,7 +4,7 @@ import seaborn as sns
 import plotly.express as px
 
 # Cargar el archivo CSV con los datos de notas
-df = pd.read_csv('SESION_07/notas_1u.csv')
+df = pd.read_csv('SESION_08/notas_1u.csv')
 
 # Mostrar resumen estadístico (count, mean, std, min, max, etc.) por tipo de examen
 resumen = df.groupby('Tipo_Examen')['Nota'].describe()
